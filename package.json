@@ -1,0 +1,23 @@
+{
+  "name": "pounchdbdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pouch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-db": "pouchdb-server --port 5984"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EcutDavid/pouchdbDemo.git"
+  },
+  "author": "David Guan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EcutDavid/pouchdbDemo/issues"
+  },
+  "homepage": "https://github.com/EcutDavid/pouchdbDemo#readme",
+  "dependencies": {
+    "pouchdb": "^5.3.2"
+  }
+}
